@@ -16,6 +16,17 @@ We compiled the neural network model using the `binary_crossentropy` loss functi
 
 Finally we evaluate the model using testing data and the `evaluate` method.
 
+-----
+
+# Technologies
+
+For the neural network model we use `TensorFlow` and `Keras`. Particularly `Sequential` for generating a linear stack of layers, and`Dense` for the internal definition of the layers itself. Also, we use the `èvaluate` method of Keras to measure the performance of the model.
+
+For the preprocessing of the data we used `StandardScaler`from the `preprocessing` module of `Sklearn`. This means that the data used to tain the model was standarized to mean equal zero and standard deviation equal one before using it.
+
+For the separation of the train data and test data groups we used `train_test_split` function from the `model_selection` module of `Sklearn`. We used 75% of the data to train the model, and 25% to test it after.
+
+
 
 ## References:
 
